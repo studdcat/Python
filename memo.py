@@ -1,2 +1,3 @@
-a = [1,2,3,4,5]
-print(a[-4])
+month = 2
+for i in range(month):
+    print(i)
