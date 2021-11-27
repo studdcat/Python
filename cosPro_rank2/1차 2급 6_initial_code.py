@@ -4,7 +4,7 @@ def solution(number):
         current = i
         temp = count
         while current != 0: # current=1 count=0 temp=0
-            if current % 10 == 3 or current % 10 == 6 or current % 10 == 9:
+            if current % 10 == 3 or 6 or 9:
                 count += 1
                 print("pair", end = '')
             current = current // 10
