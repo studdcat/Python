@@ -10,6 +10,8 @@ def solution(bishops):
         dx = ord(bishops[y][0]) - ord("A")
         dy = ord(bishops[y][1]) - ord("1")
 
+        print(y)
+
         chess[dx][dy] += 1
 
         for x in range(8):
